@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('frontend.about.about');
 });
+Route::get('/service', function () {
+    return view('frontend.service.service');
+});
